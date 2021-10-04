@@ -1,0 +1,9 @@
+h1 {
+    color: chartreuse;
+    font-family: 'Lucida Sans';
+    font-size: x-large;
+}
+
+div >a {
+    color:indigo;
+}

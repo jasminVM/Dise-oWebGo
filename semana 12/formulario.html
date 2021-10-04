@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Contendor">
+        <h2> <img src="img/godzilla-singular-point_svzv.png" width="70" height="70" />  Encuesta de cine: Nominas al oscar 2021 <img src="img/godzilla-singular-point_svzv.png" width="70" height="70" /></h2>
+        <form id="formulario01" name="formulario01" method="post" action="data.php">
+            <fieldset id="datos_personales">
+                <legend>DATOS PERSONALES</legend>
+
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" name="nombre" id="nombre"> <br>
+
+                <label for="DNI">DNI</label> <br>
+                <input type="text" name="dni" id="dni" maxlength="9"> <br>
+
+                <label for="EDAD">EDAD</label> <br>
+                <input type="text" name="edad" id="edad" maxlength="9"> <br>  <!-- Para ingresar el nombre -->
+
+                <label for="SEXO">SEXO</label> <br>
+                <select>
+                    <!-- Opciones del Combo -->
+                    <option>MASCULINO</option>
+                    <option>FEMENINO</option>
+                  </select>
+
+            </fieldset>
+
+            <fieldset id="mejor_pelicula">
+                <legend>MEJOR PELICULA DEL AÑO </legend>  <!--Crea un titulo para un grupo de campos -->
+                <input type="radio" name="pelicula" value="11"> The Rain <br>
+
+                <input type="radio" name="pelicula" value="11"> Lucifer <br>
+
+                <input type="radio" name="pelicula" value="11"> El origen <br>
+
+            </fieldset>
+
+            <fieldset id="peliculas_no_vistar">
+                <legend>PELICULAS EN ESPERA </legend>  <!--Crea un titulo para un grupo de campos -->
+                <input type="radio" name="pelicula" > Alice <br>
+
+                <input type="radio" name="pelicula" > Baki <br>
+
+                <input type="radio" name="pelicula" > Vincezo <br>
+
+            </fieldset>
+
+            <fieldset id="opinion">
+
+                <legend>OPINION</legend>
+
+                <textarea id="opinion" name="opinion" rows="4" cols="50"></textarea>
+                
+            </fieldset>
+
+            <br>
+            <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+/* 
+todos color verde incluso el Lorem
+.externo{
+    color: green;
+}
+*/
+a[class="externo"]{
+    color: green;
+}
+

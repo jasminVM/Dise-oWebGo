@@ -1,0 +1,9 @@
+p,strong{
+    border: 1px solid;
+}
+
+#caja{
+    margin: 0px;
+    padding: 0px;
+    background:#f00;
+}
