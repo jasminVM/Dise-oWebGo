@@ -1,0 +1,55 @@
+.frmUsuario{
+ width: 500px;
+ background-color: rgb(69, 77, 105);
+ margin:auto;
+ margin-top: 100px;
+ border-radius: 10px;
+ font-family: 'Calibri';
+} 
+
+h1{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.button{
+    width: 180px;
+    background:cornflowerblue ;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-bottom: 4.5%;
+}
+
+p{
+    margin-left: 45px; 
+}
+
+#Enviar{
+    width: 180px;
+    background:cornflowerblue ;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 32.5%;
+    margin-bottom: 5%;
+}
+
+.control{
+    margin-left:9%;
+    width: 77%;
+    background:rgb(69, 77, 105);
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid rgb(123, 135, 179);
+    font-size: 18px;
+    margin-bottom: 5%;
+   
+}
+
+
+

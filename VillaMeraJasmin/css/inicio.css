@@ -1,0 +1,97 @@
+.frm{
+    margin-top: -8px;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 200px 60px 1fr 150px;
+    grid-template-areas: "head head" "otros menu" "otros contenido" "foot foot";
+}
+ header{
+    grid-area: head;
+    background-color: rgb(128, 154, 238);
+}
+
+header a{
+   float: right; 
+}
+nav{
+    color: white;
+    grid-area: menu;
+    background-color: rgb(255, 253, 253); 
+}
+
+a[href="#regiones"],[href="#temas"],[href="#carta"],[href="#secretario"],[href="#prensa"]{ 
+    font-size:20px; 
+    color: rgb(255, 255, 255);
+}
+
+dl a{ 
+    color:white;
+    margin-left: -4px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(0, 0, 0);
+}
+dl{
+    margin-top: 3%;
+    margin-left: 5%;    
+}
+section{
+    grid-area: contenido;
+
+}
+aside{
+    font-size: 20px;
+    margin-left: 14%;
+    grid-area: otros;
+    font-family: Arial;  
+}
+
+.aside{
+    background-color: rgb(215, 222, 245); 
+    margin-right: 20%;
+}
+
+
+
+
+
+footer{
+    grid-area: foot;
+    background-color: rgb(128, 154, 238);    
+}
+
+h1{
+    margin-left: 5%;
+    color:rgb(0, 0, 0) ;
+    font-family: Arial;
+}
+
+header h1{ 
+    margin-top: -9%;
+    clear:right;
+    margin-left: 18%;
+    font-size: 30px;
+    font-family: Arial;
+
+  }
+
+h3{
+    margin-left: 5%;
+    color:rgb(0, 0, 0) ;
+    font-family: Arial;
+
+}
+ img{
+        border-radius: 50%;
+        margin-left: 4%;
+        margin-top: 2%;
+ }
+

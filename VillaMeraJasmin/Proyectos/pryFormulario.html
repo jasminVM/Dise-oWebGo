@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pry.css/pryFormulario.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <Section class="frmPelicula">  
+        <img id="OSCAR" src="img/Osc.png" height="1200px" width="2000">
+            <h1><img  id="derecha" src="img/logoN.png" width="70" height="70" />   Encuesta de cine 2021  <img  id ="izquierda" src="img/logoN.png" width="70" height="70" /></h1>   
+            <form id="formulario01" name="formulario01" method="post" action="data.php">   
+            <fieldset id="datos_personales">
+                <legend>DATOS PERSONALES</legend>
+                <input class="control" type="text" id="nombre" placeholder="Nombre"> <br>
+                <input class="control" type="text" id="apellido" placeholder="Apellido"><br>
+                <input class="control" type="text" id="dni" placeholder="Documento de Identidad"><br>
+                <input class="control" type="text" id="edad" placeholder="Edad"><br>
+                
+                <label  for="Sexo">Sexo</label><br>
+                <select id="cbo">
+                    <!-- Opciones del Combo -->
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                  </select>
+
+            </fieldset>
+
+            <fieldset id="mejor_pelicula">
+                <legend>MEJOR PELICULA DEL AÑO </legend>  <!--Crea un titulo para un grupo de campos -->
+                <input type="radio" name="pelicula" value="11"> The Rain <br>
+
+                <input type="radio" name="pelicula" value="11"> Lucifer <br>
+
+                <input type="radio" name="pelicula" value="11"> El origen <br>
+
+            </fieldset>
+
+            <fieldset id="peliculas_no_vistas">
+                <legend>PELICULAS EN ESPERA </legend>  <!--Crea un titulo para un grupo de campos -->
+                <input type="radio" name="pelicula" > Alice <br>
+
+                <input type="radio" name="pelicula" > Baki <br>
+
+                <input type="radio" name="pelicula" > Vincezo <br>
+
+            </fieldset>
+
+            <fieldset id="opinion">
+
+                <legend>OPINION</legend>
+
+                <textarea id="cuadro" name="opinion" rows="4" cols="50"></textarea>
+                
+            </fieldset>
+
+            <br>
+            <input  class= "button" type="reset" value="Borrar Formulario"> <input  class= "button" type="submit" value="Enviar">
+    </div>
+    </Section>
+        
+</body>
+</html>

@@ -1,0 +1,106 @@
+.frmPelicula{
+width: 1500px;
+background-color: rgb(0, 0, 0);
+margin:auto;
+margin-top: 100px;
+border-radius: 10px;
+font-family: 'Calibri';
+}
+
+#OSCAR{ 
+    padding: 10px; 
+    margin: 10px; 
+    float: left; 
+    width: 250px;
+}
+
+.frmPelicula h1{
+    color: rgb(238, 39, 39);
+    font-size: 40px;
+    text-align: center;
+}
+
+legend{
+    font-size: 20px;
+    color: rgb(238, 39, 39);
+    text-align: center;
+}
+
+.control{
+    margin-left:10%;
+    width: 77%;
+    background:rgb(0, 0, 0);
+    padding: 10px;
+    border-radius:5px;
+    border: 1px solid rgb(233, 45, 45);
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+#cbo{
+    width: 180px;
+    background:rgb(238, 39, 39) ;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 119px;
+    margin-bottom: 4%;
+}
+
+#datos_personales{
+    border: none;
+}
+
+
+#mejor_pelicula {
+    font-size: 20px;
+    color: white;
+    border: none;
+    
+}
+
+#mejor_pelicula input{
+    margin-left:119px;
+}
+
+#peliculas_no_vistas{
+    font-size: 20px;
+    color: white; 
+    border: none;  
+}
+ 
+#peliculas_no_vistas input{
+    margin-left:119px;
+}
+
+
+#opinion{
+    border: none;
+    margin-left:27%;
+    margin-right:10% ;
+
+}
+
+#cuadro{
+    width: 100%;
+    border-color:rgb(238, 39, 39) ;
+    background: black;
+    color: white;
+    border-radius:5px;
+
+}
+.button{
+    width: 180px;
+    background:rgb(238, 39, 39) ;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-bottom: 4.5%;
+}
+
+

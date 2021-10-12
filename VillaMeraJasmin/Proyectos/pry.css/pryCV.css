@@ -1,0 +1,41 @@
+.pryCV{
+width: 800px;
+background-color: rgb(255, 255, 255);
+margin-top: 100px;
+margin:auto;
+border-radius: 10px;
+font-family: 'Calibri';
+}
+
+img{
+    border-radius: 50%;
+}
+
+#Titulog{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(165, 184, 219);
+    margin-bottom: -16px;
+}
+
+h2{
+    background-color: rgb(165, 184, 219);
+}
+
+a[href="#perfil"],[href="#experiencia"],[href="#habilidades"],[href="#educacion"]{ 
+    font-size:20px; 
+    color: white;
+
+}
+dl{
+    background-color: rgb(165, 184, 219);
+    text-align: right;
+}
+
+#PieDePagina{
+    text-align: center;
+    background-color:rgb(165, 184, 219) ;
+}
+
+
