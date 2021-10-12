@@ -1,0 +1,73 @@
+#Caja{
+    margin:0%;
+    height: 3170px;
+    background-color: rgb(255, 255, 255);
+}
+
+a[href="#regiones"],[href="#temas"],[href="#carta"],[href="#secretario"],[href="#prensa"]{ 
+    font-size:20px; 
+    color: rgb(255, 255, 255);
+
+}
+
+
+dl a{ 
+    color:white;
+    margin-left: -4px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid rgb(228, 226, 226);
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(122, 128, 131);
+}
+dl{
+    margin-top: 3%;
+    margin-left: 5%; 
+    
+}
+
+h1{
+
+    margin-left:25%;
+    font-size: 50px;
+    color: rgb(106, 107, 109);
+    margin-top: -85px;
+}
+
+h2{
+    font-size: 28.5px; 
+    color: rgb(122, 128, 131);
+    margin-left: 5%;
+    font-family:Verdana;  
+
+}
+img{
+    margin-left: 5%;
+}
+
+iframe{
+    margin-left: 5%;
+}
+h3{
+    font-size: 15px; 
+    color: rgb(28, 140, 206);
+    margin-left: 5%;
+    font-family:Verdana;
+}
+
+p{
+    margin-left: 5%;
+    margin-right:34%;  
+    text-align: justify;
+     
+}
+
+#pieNoticia{
+    margin-left: 5%;
+    background-color: rgb(180, 218, 236);
+    padding: 11px;
+    margin-right:37%; 
+}

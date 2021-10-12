@@ -1,0 +1,23 @@
+#Caja1{
+height: 1000px;
+}
+
+#Caja2{
+    width: 500px;
+    height: 200px;
+    float: right;
+}
+
+#caja3{
+    background-color: green;
+    float: right;
+    clear: right;
+    margin: 0%;
+    
+}
+
+#Caja4{
+    background-color: yellow;
+    width: 200px;
+    float: right;
+}

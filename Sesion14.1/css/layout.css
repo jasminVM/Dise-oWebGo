@@ -1,0 +1,40 @@
+
+main{
+    width: 1200px;
+    margin: auto; 
+    background-color: green;
+}
+
+header{
+    background-color: yellow;
+}
+article{
+    background-color: gray;
+    width: 70%;
+    float: left;
+}
+footer{
+    background-color: blue;
+    clear: both;
+    height: 40px;
+}
+
+nav{
+    width: 30%;
+    float: left;
+}
+
+
+
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+li{
+    list-style: none;
+}

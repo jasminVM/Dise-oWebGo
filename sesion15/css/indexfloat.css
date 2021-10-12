@@ -1,0 +1,32 @@
+header{
+    background-color: blueviolet;
+    height: 150px;
+}
+
+nav{
+    background-color:cornflowerblue;
+    width: 25%;
+}
+
+section{
+    background-color:indigo ;
+    width: 50%;
+}
+
+aside{
+    background-color:darkmagenta ;
+    width: 25%;
+}
+
+footer{
+    background-color:darkorchid ;
+    height: 100%;
+    clear: left;
+}
+
+nav,
+aside,
+section{
+    float: left;
+    height: 350px;
+}

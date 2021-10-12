@@ -1,0 +1,30 @@
+.Externo{
+    font-family: Arial;
+}
+
+a[class="Externo"]{
+    color: green;
+}
+
+a[href^="mailto:"]{
+    font-size: 40px;
+    font-family: Arial;
+    color: magenta;
+}
+
+#caja{
+    margin: 20px;
+    padding: 10px;
+    background: red;
+    border: 2px inset black;
+    border-radius: 10px;
+    
+}
+
+#Nombretxt{
+   margin: 20px;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: blueviolet;
+   
+}

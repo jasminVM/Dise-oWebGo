@@ -1,0 +1,36 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+    } */
+
+   .grid {
+        display: grid;
+        grid-template-columns: 25%  75%;
+        grid-template-rows: 2fr 1fr;
+        grid-template-areas: "head head" "menu contenido""foot foot";
+    }
+
+    .a { 
+        grid-area: head; 
+        background: blue
+     }
+    .b { 
+        grid-area: menu;
+        background: red 
+    }
+    .c { 
+        grid-area: contenido; 
+        background:greenyellow; 
+    }
+    .d { 
+        grid-area: foot; 
+        background: orange 
+    }
+
+    .a,
+    .b,
+    .c,
+    .d{
+        border: 2px solid black;
+    }
