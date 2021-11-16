@@ -1,0 +1,94 @@
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    margin-left: 20px;
+
+}
+
+.rombo{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    margin-left: 20px;
+    transform: rotate(45deg);
+    
+}
+
+
+.paralelogramo{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    margin-left: 20px;
+    transform: skew(20deg);
+}
+
+.triangulo{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid yellow;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+}
+
+.circulo1{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    border-radius:50%;
+}
+
+.circulo2{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border-left: 50px solid yellow;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid yellow;
+}
+.diamante{
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    clip-path: polygon(28% 1%, 73% 0, 100% 33%, 53% 100%, 0 33%);
+}
+
+.corazon{
+    left: 5%;
+    background-color: indigo;
+    transform: translate(-50%, 30%) rotate(-45deg);
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+.banda{
+    position: absolute;
+    width: 170%;
+    height: 20%;
+    top: 25%;
+    background-color: white;
+    left: -5%;
+    z-index: 1;
+}
+
+.corazon::before,
+.corazon::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:indigo;
+}
+
+.corazon::before{
+    left: 50%;
+}
+
+.corazon::after{
+    top:-50%;
+}

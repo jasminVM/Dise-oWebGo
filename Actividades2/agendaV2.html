@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgendaV2</title>
+    <link rel="stylesheet" href="css/agendav2.css">
+</head>
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+       <header>
+           <h3>
+               Mi Agenda de contactos
+           </h3>
+           <hr>
+           <img src="img/re.png" alt="">
+       </header>
+       <form>
+          
+           <input type="text" placeholder="Nombre" id= "nombre" onkeypress="return soloLetras(event)"><span id="nombre"></span><br><br>
+           <input type="text" placeholder="Apellido" id= "apellido" onkeypress="return soloLetras(event)"><span id="apellido"></span><br><br>
+           <input type="text" placeholder="Movil" id="movil"><br><br>
+           <input type="text" placeholder="Direcion" id="direccion"><br><br>
+           <input type="email" placeholder="email" id="email">
+           
+       </form>
+       <hr/>
+       <div>
+           <button type="button" onclick="guardarDatos()">Guardar</button>
+           <button type="button" onclick="recuperarDato()"> Recuperar</button>
+           <button type="button" onclick="eliminarDato()">Eliminar</button>
+           <button type="button" onclick="eliminartodo()"> Eliminar Todos</button>
+       </div>
+        <hr>
+        <span class="titu">Nombre</span>
+        <span class="titu">Apellido</span>
+        <span class="titu">Celular</span> 
+        <span class="titu">Direccion</span> 
+        <span class="tituemail">Email</span>
+        <ul id="contactos"></ul>
+       
+    </div>
+    <script src="js/agendav2.js"></script>
+</body>
+</html>

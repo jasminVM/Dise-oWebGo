@@ -1,8 +1,10 @@
 .frmUsuario{
  width: 500px;
- background-color: rgb(69, 77, 105);
+ background-color: rgb(45, 84, 224);
  margin:auto;
- margin-top: 100px;
+ float: left;
+ margin-top: auto;
+ padding-left: 10px;
  border-radius: 10px;
  font-family: 'Calibri';
 } 

@@ -1,0 +1,36 @@
+div{
+    background-color: blueviolet;
+    color: white;
+    padding: .2rem .3rem .1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animar{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    10%{
+        left: 5rem;
+        top: 0rem;
+        color: blueviolet;
+    }
+    30%{
+        left: 5rem;
+        top: 5rem;
+        color: white;
+    }
+    60%{
+        top: 0rem;  
+        left: 5rem;
+        color: blueviolet;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}

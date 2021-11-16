@@ -1,0 +1,39 @@
+/*Pseudoelementos- ::*/
+
+p::first-letter{
+    font-size: 2rem;
+}
+.seudoEle{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+.seudoEle::before{
+    content: 'hola';
+    background-color: rgb(209, 166, 166);
+}
+.seudoEle::after{
+    content: 'hola';
+    background-color: rgb(219, 167, 167);
+}
+ 
+/*PseudoClases - :*/
+
+div:hover{
+    background-color: yellow;
+}
+
+
+a:hover{
+    color: red;
+}
+
+a:focus{
+    color: seagreen;
+}
+
+a:active{
+ color: hotpink;
+}
+

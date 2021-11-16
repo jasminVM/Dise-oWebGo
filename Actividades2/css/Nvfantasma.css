@@ -1,0 +1,156 @@
+#comelon{
+    color: white;
+    padding:0;
+    position: absolute;
+    border-right: 10px solid transparent;
+    border-top:10px solid yellow;
+    border-left:10px solid yellow;
+    border-bottom: 10px solid yellow;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: animar;
+    animation-duration: 20s;
+    transition-duration: -5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animar{
+    0%{
+        left: 0rem;
+        top:14rem;
+        border-right: 10px solid transparent;
+    }
+    8%{
+        left: 6rem;
+        top:14rem;
+        border-right: 10px solid yellow;
+    }
+    16%{
+        left: 6rem;
+        top: 5rem;
+        border-right: 10px solid transparent;
+    }
+    24%{
+        left: 21rem;
+        top: 5rem;
+        border-right: 10px solid yellow;
+    }
+    32%{
+        left: 21rem;
+        top: 20rem;
+        border-right: 10px solid transparent;
+    }
+    40%{
+        left: 26rem;
+        top: 20rem;
+        border-right: 10px solid yellow;
+    }
+    48%{
+        left: 26rem;
+        top: 23rem; 
+        border-right: 10px solid transparent;
+    }
+    56%{
+        left: 24rem;
+        top: 23rem; 
+        border-right: 10px solid yellow;
+    }
+
+    62%{
+        left: 24rem;
+        top: 26rem;  
+        border-right: 10px solid transparent;
+    }
+    70%{
+        left: 21rem;
+        top: 26rem; 
+        border-right: 10px solid yellow;
+    }
+    78%{
+        left: 21rem;
+        top: 1rem; 
+        border-right: 10px solid transparent;
+    }
+    96%{
+        left: 0rem;
+        top: 14rem; 
+        border-right: 10px solid yellow;
+    }
+    100%{
+        left: 0rem;
+        top: 14rem;
+        border-right: 10px solid transparent;
+    }
+}
+
+#fantasma1{
+    background-color: blueviolet;
+    color: white;
+    padding: .2rem .3rem .1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation: animar1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animar1{
+    0%{
+        left: 13.5rem;
+        top:14rem;
+        background-color: blueviolet;
+    }
+    12%{
+        left: 13.5rem;
+        top:11rem;
+        background-color: blueviolet;
+    }
+    24%{
+        left:18rem;
+        top:11rem;
+        background-color: blueviolet;
+    }
+    36%{
+        left:18rem;
+        top:14.3rem;
+        background-color: blueviolet;
+    }
+    48%{
+        left: 28rem;
+        top: 14.3rem;
+    }
+    49%{
+        left: 29rem;
+        top: 14.3rem;
+        background-color:transparent;
+    }
+    50%{
+        left: 0rem;
+        top: 14rem;
+        background-color:transparent;
+    }
+    62%{
+        left: 6rem;
+        top: 14rem; 
+        background-color: blueviolet;
+    }
+    74%{
+        left: 6rem;
+        top: 5rem;
+        background-color: blueviolet;
+    }
+
+    100%{
+        left: 21rem;
+        top: 5rem;  
+        background-color: blueviolet;
+    }
+    
+}
+
+
+
